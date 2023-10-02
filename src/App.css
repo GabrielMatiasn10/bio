@@ -1,11 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+ 
 }
 
 body {
   background-color: #747474;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'roboto', sans-serif; ;
   text-align: center;
   background-image: url("https://s3-alpha-sig.figma.com/img/8b6c/a660/ca9bd9b1a3af650d24995a1e7959426a?Expires=1697414400&Signature=VV~46QXP96RIlmErSt2TUW9K49qUo5Ij8sZ0OC~s4QYuYkQ55y7CK2AMDMJJe5HqO6PrVvubF1YYK7BzRsxU3WLmu4QNnp1RtO~e-kWxoMwTSbos-Kn9VrYazXEFUpB4yjYH6t8OqlYNyrQhb-UWLossN1EfK3nGQuvrz3KBz7NLkjG87EAHPUgugvHvHHzGRYEIOZsiMZQvkjHLjoeIjgHSw~41bWs1zFs5dbnR8YFzgZ92Xat7QbGvGksp4On5RfWjySvvaiNYkZ4oRMYhdx4T-EBBFhb7veB9c6RbQb6XIYZFW0MyUodtnQMyJHIlvOW7BCGinhyR~DaUazWk2Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
 }
@@ -19,11 +20,11 @@ img {
 }
 
 main {
-  width: 80%; /* Alterado para 80% para dispositivos móveis */
+  width: 80%; 
   max-width: 500px;
   margin: 0 auto;
   margin-top: 50px;
-  border-radius: 10px; /* Corrigido o valor para "px" */
+  border-radius: 10px; 
   box-shadow: 0 0 10px #000;
   padding: 10px; 
   display: flex;
@@ -33,11 +34,21 @@ main {
 
 p{
   color: #FFF;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; 
+  margin-bottom: 10px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+}
+
+h5{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
 }
 
 button {
@@ -57,21 +68,23 @@ button {
 a{
   text-decoration: none;
   color: var(--text-color-dark-mode, #fffdfd);
-text-align: center;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 150% */
-letter-spacing: 0.15px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; 
+  letter-spacing: 0.15px;
  
 }
 
 footer{
-  width: Fill (588px);
-  height: Hug (88px);
+  display: flex;
   padding: 24px;
+  justify-content: center;
+  align-items: flex-start;
   gap: 16px;
+  align-self: stretch;
 
 }
 
