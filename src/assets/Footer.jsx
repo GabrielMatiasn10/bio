@@ -1,5 +1,6 @@
 import { BsInstagram } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
+import {BiLogoLinkedin} from "react-icons/bi";
 
 
 function Footer() {
@@ -7,9 +8,13 @@ function Footer() {
     <div>
     <footer>
     <a href="https://www.instagram.com/gabrielmatiasn10/" target="_blank"> <BsInstagram/> </a>
-    <a href="https://api.whatsapp.com/send?phone=551195003-9320&text=Ol%C3%A1%20Gabriel%20Matias%2C%20tudo%20bem%3F%20" target="_blank"> <BsWhatsapp/> </a>
+    <a href="Https://wa.me/5581989824985" target="_blank"> <BsWhatsapp/> </a>
+    <a href="https://www.linkedin.com/in/gabriel-matias-dev/" target="_blank"> <BiLogoLinkedin/> </a>
+    
     </footer>
-    <h5>@</h5>
+    <h5>
+        @2023 Gabriel Matias
+    </h5>
     </div>
     
   );
