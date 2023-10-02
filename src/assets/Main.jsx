@@ -8,8 +8,8 @@ function Main() {
     <p>Gabriel Matias</p>
 
     <main>
-        <button> <a href="https://github.com/GabrielMatiasn10" target="_blank">  Veja Meu Portifolio </a></button>
-        <button> <a href="https://portifolio-lyart-zeta.vercel.app/" target="_blank">  Meu Github </a></button>
+        <button> <a href="https://portifolio-lyart-zeta.vercel.app/" target="_blank">  Veja Meu Portifolio </a></button>
+        <button> <a href="https://github.com/GabrielMatiasn10" target="_blank">  Meu Github </a></button>
     </main>
     </body>
     </div>
