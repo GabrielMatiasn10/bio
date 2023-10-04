@@ -2,7 +2,6 @@ import { BsInstagram } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import {BiLogoLinkedin} from "react-icons/bi";
 
-
 function Footer() {
   return (
     <div>
