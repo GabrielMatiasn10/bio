@@ -9,6 +9,7 @@ function Redes() {
         <a href="Https://wa.me/5581989824985" target="_blank"> <BsWhatsapp /> </a>
         <a href="https://www.linkedin.com/in/gabriel-matias-dev/" target="_blank"> <BiLogoLinkedin /> </a>
     </div>
+   
     </>
   );
 }
