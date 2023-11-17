@@ -1,14 +1,17 @@
 
 import './App.css';
 import Main from './assets/Main';
-import Footer from './assets/Footer';
+import Redes from './assets/Redes';
+
+
 
 
 function App() {
   return (
     <div className="App">
       <Main />
-      <Footer/> 
+      <Redes/>
+      
     </div>
   );
 }
